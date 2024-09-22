@@ -1,0 +1,15 @@
+Adafruit_ADS1x15
+glob
+keras
+librosa
+matplotlib
+numpy
+os
+pandas
+pyaudio
+scikit-learn
+serial
+soundfile
+tensorflow
+time
+wave
