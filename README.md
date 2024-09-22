@@ -29,7 +29,8 @@ The model is trained using the [Donate a Cry Corpus Dataset](https://asmp-eurasi
 4. Additional data from the temperature and pulse sensors are sent alongside the cry classification.
 5. The system sends an alert to the parent via a Telegram bot with the detected reason for the cry.
 
-
+## System Flow:
+![System Flow Diagram](system_flow.png)
 
 ## Model:
 Two convolutional neural networks (CNN) are used:
