@@ -3,13 +3,13 @@
 This project aims to develop an intelligent deep learning-based system that classifies and identifies the reasons behind an infant's cry. By integrating temperature and pulse sensors with a microphone, the system analyzes the infant’s cry and predicts whether the cry is caused by tiredness, pain, burping, hunger, or discomfort, ensuring caregivers can respond promptly and appropriately
 
 ## Features:
-- **Cry Detection**:Identifies whether the audio input contains an infant's cry.
+- **Cry Detection**: Identifies whether the audio input contains an infant's cry.
 - **Cry Classification**: Determines the reason behind the cry using features such as pitch and intensity.
 - **Sensor Integration**: Incorporates temperature and pulse sensors to gather additional health data.
 - **Alerts**: Notifies caregivers via a Telegram bot with the reason for the cry and relevant sensor readings.
 
 ## Components:
-- **DS18B20 Temperature Sensor**:Captures and transmits the infant’s body temperature.
+- **DS18B20 Temperature Sensor**: Captures and transmits the infant’s body temperature.
 - **Super Debug Heart Pulse Sensor**: Monitors the infant’s pulse rate.
 - **Microphone**: Records 5 seconds of audio every minute to detect and classify cries.
 - **Raspberry Pi**: Serves as the central processing unit to manage data collection, prediction, and alerts.
